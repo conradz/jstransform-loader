@@ -1,0 +1,36 @@
+{
+  "name": "jstransform-loader",
+  "version": "0.0.0",
+  "description": "Webpack loader for JSTransform",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/conradz/jstransform-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "jstransform",
+    "es6"
+  ],
+  "author": "Conrad Zimmerman <me@conradz.com>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/conradz/jstransform-loader/issues"
+  },
+  "homepage": "https://github.com/conradz/jstransform-loader",
+  "dependencies": {
+    "concat-map": "0.0.1",
+    "jstransform": "^4.0.1",
+    "convert-source-map": "^0.3.3",
+    "async": "^0.8.0"
+  },
+  "devDependencies": {
+    "tap": "^0.4.9",
+    "webpack": "^1.1.8",
+    "esprima-fb": "^3001.1.0-dev-harmony-fb"
+  }
+}
