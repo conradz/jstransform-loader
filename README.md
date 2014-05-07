@@ -1,5 +1,7 @@
 # jstransform-loader
 
+[![Build Status](https://travis-ci.org/reworkcss/css-parse.svg?branch=master)](https://travis-ci.org/reworkcss/css-parse)
+
 A [webpack](http://webpack.github.io/) loader for [jstransform](https://github.com/facebook/jstransform).
 
 This loader runs the source code through JSTransform, which can be used to transform ES6 code to ES5, or any other transforms to the JS source code.
