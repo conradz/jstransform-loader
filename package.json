@@ -31,6 +31,7 @@
   "devDependencies": {
     "tap": "^0.4.9",
     "webpack": "^1.1.8",
-    "esprima-fb": "^3001.1.0-dev-harmony-fb"
+    "esprima-fb": "^3001.1.0-dev-harmony-fb",
+    "rimraf": "^2.2.8"
   }
 }

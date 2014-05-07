@@ -3,6 +3,7 @@ var webpack = require('webpack');
 var fs = require('fs');
 var path = require('path');
 var vm = require('vm');
+var rimraf = require('rimraf');
 
 test('run transform', function(t) {
     var config = {
@@ -13,8 +14,8 @@ test('run transform', function(t) {
             filename: 'bundle.js'
         }
     };
-    
-    fs.unlinkSync(path.join(__dirname, 'bundle.js'));
+
+    rimraf.sync(path.join(__dirname, 'bundle.js'));
     webpack(config, done);
     
     function done(err) {
