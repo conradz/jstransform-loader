@@ -1,6 +1,6 @@
 # jstransform-loader
 
-[![Build Status](https://travis-ci.org/reworkcss/css-parse.svg?branch=master)](https://travis-ci.org/reworkcss/css-parse)
+[![Build Status](https://travis-ci.org/conradz/jstransform-loader.svg?branch=master)](https://travis-ci.org/conradz/jstransform-loader)
 
 A [webpack](http://webpack.github.io/) loader for [jstransform](https://github.com/facebook/jstransform).
 
