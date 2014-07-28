@@ -41,6 +41,6 @@ module.exports = function(src) {
         map.sourcemap.sources = [this.resourcePath];
         map.sourcemap.sourcesContent = [src];
 
-        cb(null, r.code, r.sourceMap);
+        cb(null, r.code, map.sourcemap);
     }
 };
