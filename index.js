@@ -27,6 +27,8 @@ module.exports = function(src) {
     }
     
     function resolved(err, visitors) {
+        if (err) return cb(err);
+
         visitors = concatMap(visitors, function(v) {
             return require(v).visitorList;
         });
@@ -41,6 +43,6 @@ module.exports = function(src) {
         map.sourcemap.sources = [this.resourcePath];
         map.sourcemap.sourcesContent = [src];
 
-        cb(null, r.code, r.sourceMap);
+        cb(null, r.code, map.toObject());
     }
 };
