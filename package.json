@@ -24,7 +24,7 @@
   "homepage": "https://github.com/conradz/jstransform-loader",
   "dependencies": {
     "concat-map": "0.0.1",
-    "jstransform": "^4.0.1",
+    "jstransform": "^6.2.0",
     "convert-source-map": "^0.3.3",
     "async": "^0.8.0"
   },
