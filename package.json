@@ -24,14 +24,14 @@
   "homepage": "https://github.com/conradz/jstransform-loader",
   "dependencies": {
     "concat-map": "0.0.1",
-    "jstransform": "^4.0.1",
-    "convert-source-map": "^0.3.3",
-    "async": "^0.8.0"
+    "jstransform": "^8.2.0",
+    "convert-source-map": "^0.4.1",
+    "async": "^0.9.0"
   },
   "devDependencies": {
-    "tap": "^0.4.9",
-    "webpack": "^1.1.8",
-    "esprima-fb": "^3001.1.0-dev-harmony-fb",
-    "rimraf": "^2.2.8"
+    "esprima-fb": "^8001.1001.0-dev-harmony-fb",
+    "rimraf": "^2.2.8",
+    "tap": "^0.4.13",
+    "webpack": "^1.4.13"
   }
 }
